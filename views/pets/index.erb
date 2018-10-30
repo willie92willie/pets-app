@@ -1,0 +1,14 @@
+<h1 >🐅 🐘 🦆Bienvenido a la APP de Mascotas 🐈 🐢 🐀</h1>
+
+<p>
+    <form action="/pets/new">
+        <input type="submit" value="Nueva Mascota" />
+    </form>
+
+
+<ul>
+<% @pets.each do |pet| %>
+    <p><a href="/pets/<%= pet.id %>"><%= pet.name %></a></p>
+    <% end %>
+</ul> 
+</p>

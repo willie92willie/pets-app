@@ -1,0 +1,29 @@
+<h1>🙊 Vas a Cambiar de nombre o tipo de animal de <%= @pet.name %> 🙊</h1>
+<p>
+    <form action="/pets/<%= @pet.id %>" method="POST">
+        <input type="hidden" name="_method" value="PATCH">
+        <input type="text" name="name">
+        <select name="emoji">
+    <option value="🐭">🐭</option>
+    <option value="🐹">🐹</option>
+    <option value="🐰">🐰</option>
+    <option value="🐶">🐶</option>
+    <option value="🐺">🐺</option>
+    <option value="🦊">🦊</option>
+    <option value="🐵">🐵</option>
+    <option value="🐸">🐸</option>
+     <option value="🐯">🐯</option>
+    <option value="🦁">🦁</option>
+    <option value="🐴">🐴</option>
+      <option value="🐮">🐮</option>
+     <option value="🐷">🐷</option>
+    <option value="🐻">🐻</option>
+    <option value="🐴">🐴</option>
+    <option value="🐼">🐼</option>
+     <option value="🐲">🐲</option>
+    <option value="🦄">🦄</option>
+  </select>
+        <input type="submit" value="Renombrar">
+    </form>
+
+</p>

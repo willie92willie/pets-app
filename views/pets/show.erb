@@ -1,0 +1,12 @@
+<h1 > Hola!! Mi Nombre es <%= @pet.name %> Y soy un/a <%= @pet.emoji %></h1>
+
+
+<p>
+    <form action="/pets/<%= @pet.id %>/edit">
+        <input type="submit" value="Renombrar Mascota" />
+    </form>
+  <form action="/pets/<%=  @pet.id %>" method="POST">
+    <input type="hidden" name="_method" value="delete">
+    <input type="submit" value="Eliminar Mascota">
+</form>
+</p>

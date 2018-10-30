@@ -1,0 +1,25 @@
+body {
+    
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+h1{
+    text-align: center;
+    top: 180px;
+    position: relative;
+}
+
+p {
+    text-align: center;
+    top: 230px;
+    position: relative;
+}
+
+form{
+    text-align: center;
+    top: 200px;
+    position: relative;
+}
+
